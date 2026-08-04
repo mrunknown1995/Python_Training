@@ -1,3 +1,4 @@
 name = input('What is your name? ')
 age = input('How old are you? ')
-print(f'Hello, {name}! Your age is {age}')
+city = input('What is yor city? ')
+print(f'Hello, {name}! Your age is {age} from {city}')
