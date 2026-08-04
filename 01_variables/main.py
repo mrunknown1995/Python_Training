@@ -11,3 +11,10 @@ print(
     f'{city}and i am {age}. My height is {height}'
     f'and my weight is {weight}.'
 )
+
+"""Task 2"""
+
+name = input('Your name: ')
+age = input('Your age: ')
+
+print(f'Your name is {name} and your age is {age}')
