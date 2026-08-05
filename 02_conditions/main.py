@@ -31,3 +31,14 @@
 #     print("It's cool")
 # else:
 #     print("It's warm")
+
+
+# """Task 4"""
+
+# num1 = int(input('Enter first number: '))
+# num2 = int(input('Enter second number: '))
+# num3 = int(input('Enter third number: '))
+
+# greater_num = max(num1, num2, num3)
+
+# print(greater_num)
