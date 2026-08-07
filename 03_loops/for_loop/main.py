@@ -33,3 +33,18 @@
 # for i in range(3):
 #     for x in range(3):
 #         print(i, x)
+
+# fruits = ["apple", "banana", "orange", "kiwi"]
+
+# for i in range(len(fruits)):
+#     print(i, fruits[i])
+
+
+# """Task 4"""
+
+# total = 0
+
+# for i in range(1, 101):
+#     total += i
+
+# print(total)
