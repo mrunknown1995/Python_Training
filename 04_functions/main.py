@@ -61,3 +61,46 @@
 
 # print(calculate_average([10, 20, 30]))
 # print(calculate_average([5, 10, 15, 20]))
+
+
+# """Task 5"""
+
+# def calculate_square(number):
+#     return number * number
+
+# print(calculate_square(5))
+# print(calculate_square(10))
+# print(calculate_square(-3))
+
+
+# """Task 6"""
+
+# def check_number(number):
+#     if number == 0:
+#         return 'Zero'
+#     elif number > 0:
+#         return 'Positive'
+#     else:
+#         return 'Negative'
+
+# print(check_number(10))
+# print(check_number(-5))
+# print(check_number(0))
+
+
+# """Task 7"""
+
+# def filter_numbers(numbers):
+
+#     new_list = []
+
+#     for i in numbers:
+#         if i % 2 == 0 and i > 10:
+#             new_list.append(i)
+
+#     return new_list
+
+# print(filter_numbers([4, 15, 20, 7, 30, 11, 8, 50]))
+# print(filter_numbers([8, 17, 200, 57, 0, 41, 2, 50]))
+
+
