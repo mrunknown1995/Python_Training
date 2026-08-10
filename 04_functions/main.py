@@ -23,7 +23,7 @@
 
 # def calculate(num1, num2, action):
 
-#     if action == '/' and num2 == 0:
+#     elif action == '/' and num2 == 0:
 #         return 'Cannot divide by zero.'
 #     elif action == '+':
 #         return num1 + num2
@@ -76,7 +76,7 @@
 # """Task 6"""
 
 # def check_number(number):
-#     if number == 0:
+#     elif number == 0:
 #         return 'Zero'
 #     elif number > 0:
 #         return 'Positive'
@@ -95,7 +95,7 @@
 #     new_list = []
 
 #     for i in numbers:
-#         if i % 2 == 0 and i > 10:
+#         elif i % 2 == 0 and i > 10:
 #             new_list.append(i)
 
 #     return new_list
@@ -113,7 +113,7 @@
 
 #     for i in numbers:
 
-#         if i > largest:
+#         elif i > largest:
 #             second_largest = largest
 #             largest = i
 #         elif i > second_largest:
@@ -125,3 +125,23 @@
 # print(second_largest_num([3, 7, 2, 9, 4, 10]))
 # print(second_largest_num([101, 50, 8, 20, 15]))
 # print(second_largest_num([[-10, -5, -20]]))
+
+
+# """Task 9"""
+
+# def count_vowels(text):
+
+#     vowels = 'aeiou'
+#     vowel_counter = 0
+
+#     for char in text.lower():
+
+#         if char in vowels:
+#             vowel_counter += 1
+
+#     return vowel_counter
+
+# print(count_vowels('hello'))
+# print(count_vowels('programming'))
+# print(count_vowels('Python'))
+# print(count_vowels('JOHN'))
