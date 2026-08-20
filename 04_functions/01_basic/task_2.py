@@ -1,0 +1,9 @@
+
+# """Task 2"""
+
+# def describe_person(name, age):
+#     print(f'{name} is {age} years old. ')
+
+# describe_person("John", 30)
+# describe_person("Martin", 30)
+# describe_person("Narek", 25)
