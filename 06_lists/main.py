@@ -42,3 +42,15 @@
 
 # print(update_item(["cat", "dog", "bird"], -1, "fish"))
 # # ["cat", "dog", "fish"]
+
+
+# """Task 4"""
+
+# def get_first_three(items):
+#     return items[0:3]
+
+# print(get_first_three(["Python", "Java", "C++", "Go"]))
+# # ["Python", "Java", "C++"]
+
+# print(get_first_three([10, 20, 30, 40, 50]))
+# # [10, 20, 30]
