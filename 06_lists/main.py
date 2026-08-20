@@ -54,3 +54,24 @@
 
 # print(get_first_three([10, 20, 30, 40, 50]))
 # # [10, 20, 30]
+
+
+# """Task 5"""
+
+# def find_item(items, target):
+
+#     for i in range(len(items)):
+#         if items[i] == target:
+#             return i
+#     return -1
+
+# print(find_item(["Python", "Java", "C++", "Java"], "Java"))
+# # 1
+
+# print(find_item([10, 20, 30, 20], 20))
+# # 1
+
+# print(find_item(["cat", "dog", "bird"], "bird"))
+# # 2
+
+# print(find_item(["cat", "dog", "bird"], "horse"))
