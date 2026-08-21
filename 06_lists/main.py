@@ -101,6 +101,16 @@
 #         break
 
 
+# """Task 7"""
 
+# user_input = input("Enter your sentence: ")
+# user_input_split = user_input.strip().lower().split()
 
+# print(f"Number of words: {len(user_input_split)}")
+# print (f"First word: {user_input_split[0]}")
+# print (f"Last word: {user_input_split[-1]}")
 
+# if "python" in user_input_split:
+#     print(f"'python' appears {user_input_split.count("python")} times")
+# else:
+#     print("Python wasn't mentioned.")
