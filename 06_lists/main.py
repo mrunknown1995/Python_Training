@@ -75,3 +75,32 @@
 # # 2
 
 # print(find_item(["cat", "dog", "bird"], "horse"))
+
+
+# """Task 6"""
+
+# prog_lang_list = []
+
+# while True:
+
+#     user_input_1 = input("Enter 5 different programming languages one at a time: ")
+#     prog_lang_list.append(user_input_1)
+
+#     if len(prog_lang_list) == 5:
+
+#         print(f"Languages: {prog_lang_list}")
+#         print(f"Number of languages: {len(prog_lang_list)}")
+#         print(f"First language: {prog_lang_list[0]}")
+#         print(f"Last language: {prog_lang_list[-1]}")
+
+#         user_input_2 = input("Enter one more programming language: ")
+#         prog_lang_list.append(user_input_2)
+
+#         print(f"Updated languages: {prog_lang_list}")
+
+#         break
+
+
+
+
+
