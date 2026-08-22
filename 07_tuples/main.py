@@ -46,3 +46,14 @@
 # print(f"Last language: {prog_languages[-1]}")
 # print(f"Number of languages: {len(prog_languages)}")
 
+
+# """Task 4"""
+
+# movie_info = ("Inception", "Christopher Nolan", "2010")
+# title, director, year = movie_info
+
+# print(f"Movie: {title}")
+# print(f"Director: {director}")
+# print(f"Year: {year}")
+
+
