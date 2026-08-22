@@ -114,3 +114,26 @@
 #     print(f"'python' appears {user_input_split.count("python")} times")
 # else:
 #     print("Python wasn't mentioned.")
+
+
+# """Task 8"""
+
+# shopping_list = []
+
+# for i in range(5):
+
+#     user_input = input("Enter 5 items, one at a time: ")
+#     shopping_list.append(user_input)
+
+# print(f"Shopping list: {shopping_list}")
+
+# user_input = input("What item do you want to remove? ")
+
+# if user_input in shopping_list:
+#     shopping_list.remove(user_input)
+#     print(shopping_list)
+# else:
+#     print("The item wasn't found.")
+
+
+
