@@ -29,3 +29,20 @@
 #     print(f"Year: {readable_tuple[2]}")
 
 # book_info(book_tuple)
+
+
+# """Task 3"""
+
+# prog_languages = ("Python", "C++", "C#", "Go", "Kotlin")
+
+# user_input = input("Enter a programming language: ")
+
+# if user_input in prog_languages:
+#     print(f"{user_input} is in the list.")
+# else:
+#     print(f"{user_input} wasn't found.")
+
+# print(f"First language: {prog_languages[0]}")
+# print(f"Last language: {prog_languages[-1]}")
+# print(f"Number of languages: {len(prog_languages)}")
+
