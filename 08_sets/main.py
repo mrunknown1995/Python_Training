@@ -1,3 +1,4 @@
+
 # """"Task 1"""
 
 # prog_lang_set = set()
@@ -31,5 +32,27 @@
 #     print(f"Common languages: {common_langs}")
 # else:
 #     print("You have no programming languages in common.")
+
+
+# """Task 3"""
+
+# tag_set = set()
+
+# for _ in range(6):
+
+#     user_input = input("Enter a tag: ")
+#     tag_set.add(user_input)
+
+# print(f"Unique tags: {tag_set}")
+# print(f"Number of unique tags: {len(tag_set)}")
+
+# user_input = input("What tag do you want to check? ")
+
+# if user_input in tag_set:
+#     print("Tag found")
+# else:
+#     print("Tag not found")
+
+
 
 
