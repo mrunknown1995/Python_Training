@@ -132,6 +132,37 @@
 #     else:
 #         print("Student not found.")
 
-    
 
-    
+# """Task 7"""
+
+# inventory = {
+#     "keyboard": 5,
+#     "mouse": 8,
+#     "monitor": 3,
+#     "headphones": 6
+# }
+
+# while True:
+
+#     user_input = input("Enter a product to remove (or 'exit'): ").lower()
+
+#     if user_input == "exit":
+#         break
+
+#     elif user_input in inventory:
+#         inventory.pop(user_input)
+#         print()
+#         print(f"Removed: {user_input}")
+
+#         print()
+#         print("Current inventory:")
+
+#         for key, value in inventory.items():
+#             print(f"{key}: {value}")
+
+#         print()
+
+#     else:
+#         print("Product not found.")
+
+        
