@@ -112,7 +112,26 @@
 #             print(f"{key}: {value}")
 
 
+# """Task 6"""
 
+# students = {
+#     "Alice": 85,
+#     "Bob": 72,
+#     "Charlie": 91,
+#     "David": 68
+# }
 
+# while True:
+    
+#     user_input = input("Enter student name (or 'exit'): ")
+
+#     if user_input == "exit":
+#         break
+#     elif user_input in students:
+#         print(f"{user_input}'s grade is {students.get(user_input)}")
+#     else:
+#         print("Student not found.")
+
+    
 
     
