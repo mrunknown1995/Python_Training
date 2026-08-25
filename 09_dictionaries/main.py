@@ -38,3 +38,30 @@
 # print(f"Age: {user["age"]}")
 # print(f"Language: {user["language"]}")
 # print(f"City: {user["city"]}")
+
+
+# """Task 3"""
+
+# stock = {
+#     "keyboard": 5,
+#     "mouse": 8,
+#     "monitor": 3
+# }
+
+# user_input_product = input("What product do you want to buy? ")
+
+# if user_input_product in stock:
+#     print(f"Available: {stock[user_input_product]}")
+
+#     user_input_amount = int(input("How many do you want to buy? "))
+#     new_quantity = stock[user_input_product] - user_input_amount
+#     stock[user_input_product] = new_quantity
+
+#     print(f"Remaining: {new_quantity}")
+
+# else:
+#     print("Product not found.")
+
+# print(stock)
+
+    
