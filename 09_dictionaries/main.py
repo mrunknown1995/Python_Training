@@ -64,4 +64,22 @@
 
 # print(stock)
 
+
+# """Task 4"""
+
+# grades = {
+#     "Alice": 85,
+#     "Bob": 72,
+#     "Charlie": 91,
+#     "David": 68
+# }
+
+# accum = 0
+
+# for key, value in grades.items():
+#     print(f"{key}: {value}")
+#     accum += value
+
+# average_grade = accum / len(grades.items())
+# print(f"Average grade: {average_grade}")
     
