@@ -17,3 +17,24 @@
 # print(f"Age: {user_info["age"]}")
 # print(f"Language: {user_info["language"]}")
 
+
+# """Task 2"""
+
+# user = {
+#     "name": "Alex",
+#     "age": 25,
+#     "language": "Python"
+# }
+
+# new_age = input("Enter new age: ")
+# user["age"] = new_age
+
+# user_city = input("Enter your city: ")
+# user["city"] = user_city
+
+# print()
+# print("--- Updated Profile ---")
+# print(f"Name: {user["name"]}")
+# print(f"Age: {user["age"]}")
+# print(f"Language: {user["language"]}")
+# print(f"City: {user["city"]}")
