@@ -165,4 +165,60 @@
 #     else:
 #         print("Product not found.")
 
-        
+
+# """Task 8"""
+
+# students = [
+#     {
+#         "name": "Alice",
+#         "age": 21,
+#         "grade": 85
+#     },
+#     {
+#         "name": "Bob",
+#         "age": 23,
+#         "grade": 72
+#     },
+#     {
+#         "name": "Charlie",
+#         "age": 20,
+#         "grade": 91
+#     }
+# ]
+
+# accum = 0
+
+# for dct in students:
+#     print()
+
+#     for key, value in dct.items():
+#         print(f"{key.capitalize()}: {value}")
+
+#     accum += dct["grade"]
+
+# average_grade = accum / len(students)
+
+# print()
+
+# user_input = input("Enter a student name: ")
+# print()
+
+# found = False
+
+# for dct in students:
+
+#     if dct["name"] == user_input:
+#         print("Student found!")
+
+#         found = True
+
+#         for key, value in dct.items():
+#             print(f"{key.capitalize()}: {value}")
+
+#         break
+
+# if not found:
+#     print("Student not found.")
+
+# print()
+# print(f"Average grade: {average_grade}")
