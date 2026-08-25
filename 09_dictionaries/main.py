@@ -82,4 +82,35 @@
 
 # average_grade = accum / len(grades.items())
 # print(f"Average grade: {average_grade}")
+
+
+# """Task 5"""
+
+# phone_book = {
+#     "Alice": "555-1234",
+#     "Bob": "555-5678",
+#     "Charlie": "555-9012"
+# }
+
+# find_person = input("Enter a name: ")
+
+# if find_person in phone_book:
+#     print(f"{find_person}'s phone number: {phone_book[find_person]}")
+# else:
+#     print("The contact wasn't found.")
+#     add_new_person = input(f"Would you like to add {find_person}? ").lower()
+
+#     if add_new_person == "yes":
+#         add_phone_number = input(f"Enter {find_person}'s phone number: ")
+#         phone_book[find_person] = add_phone_number
+#         print()
+#         print("Updated phone book:")
+
+#         for key, value in phone_book.items():
+#             print(f"{key}: {value}")
+
+
+
+
+
     
