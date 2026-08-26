@@ -123,12 +123,12 @@
 
 # while True:
     
-#     user_input = input("Enter student name (or 'exit'): ")
+#     user_input_str = input("Enter student name (or 'exit'): ")
 
-#     if user_input == "exit":
+#     if user_input_str == "exit":
 #         break
-#     elif user_input in students:
-#         print(f"{user_input}'s grade is {students.get(user_input)}")
+#     elif user_input_str in students:
+#         print(f"{user_input_str}'s grade is {students.get(user_input_str)}")
 #     else:
 #         print("Student not found.")
 
@@ -144,15 +144,15 @@
 
 # while True:
 
-#     user_input = input("Enter a product to remove (or 'exit'): ").lower()
+#     user_input_str = input("Enter a product to remove (or 'exit'): ").lower()
 
-#     if user_input == "exit":
+#     if user_input_str == "exit":
 #         break
 
-#     elif user_input in inventory:
-#         inventory.pop(user_input)
+#     elif user_input_str in inventory:
+#         inventory.pop(user_input_str)
 #         print()
-#         print(f"Removed: {user_input}")
+#         print(f"Removed: {user_input_str}")
 
 #         print()
 #         print("Current inventory:")
@@ -200,14 +200,14 @@
 
 # print()
 
-# user_input = input("Enter a student name: ")
+# user_input_str = input("Enter a student name: ")
 # print()
 
 # found = False
 
 # for dct in students:
 
-#     if dct["name"] == user_input:
+#     if dct["name"] == user_input_str:
 #         print("Student found!")
 
 #         found = True
@@ -222,3 +222,108 @@
 
 # print()
 # print(f"Average grade: {average_grade}")
+
+
+# """Final Mini-Program: Student Manager"""
+
+# students = [
+#     {"name": "Alice", "age": 21, "grade": 85},
+#     {"name": "Bob", "age": 23, "grade": 72},
+#     {"name": "Charlie", "age": 20, "grade": 91}
+# ]
+
+# print()
+
+# while True:
+
+#     user_input = input("Choose an action:\n" \
+           
+#     "1 - Show students\n" \
+#     "2 - Find student\n" \
+#     "3 - Add student\n" \
+#     "4 - Remove student\n" \
+#     "5 - Show average grade\n" \
+#     "exit - Quit\n"
+# ).lower()
+
+#     if user_input == "exit":
+#         break
+
+#     if user_input == "1":
+#         if students:
+#             for dct in students:
+#                 print()
+
+#                 for key, value in dct.items():
+#                     print(f"{key}: {value}")
+#         else:
+#             print("The student list is empty.")
+
+#             print()
+
+#     elif user_input == "2":
+#         found = False
+#         find_student = input("Enter a student name to search for: ")
+
+#         for student in students:
+#             if find_student == student["name"]:
+#                 found = True
+#                 print()
+#                 print("Student found.")
+
+#                 for key, value in student.items():
+#                     print(f"{key}: {value}")
+
+#                 break
+#         print()
+
+#         if not found:
+#             print("Student not found.")
+
+#     elif user_input == "3":
+
+#         print()
+#         new_student_name = input("Enter student name: ")
+#         new_student_age = int(input("Enter student age: "))
+#         new_student_grade = int(input("Enter student grade: "))
+
+#         students.append({"name": new_student_name, "age": new_student_age, "grade": new_student_grade})
+#         print()
+
+#     elif user_input == "4":
+#         print()
+#         remove_student = input("Enter student name to remove: ")
+
+#         found = False
+
+#         for rem_stud in students:
+#             if remove_student == rem_stud["name"]:
+#                 found = True
+#                 students.remove(rem_stud)
+#                 print()
+#                 print("Student removed.")
+
+#                 break
+
+#         if not found:
+#             print()
+#             print("Student not found.")
+
+#         print()
+
+#     elif user_input == "5":
+
+#         print()
+#         average_grade = 0
+
+#         if students:
+#             for dct in students:
+#                 average_grade += dct["grade"]
+
+#             average_grade = average_grade / len(students)
+#             print(f"Average grade: {average_grade}")
+#         else:
+#             print("The student list is empty. ")
+#         print()
+
+
