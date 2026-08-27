@@ -48,3 +48,27 @@
 # print(calculate_delivery(50, "international"))
 # print(calculate_delivery(50, "international", True))
 # print(calculate_delivery(150, "international", True))
+
+
+# """Task 4"""
+
+# def filter_products(products, min_price=0):
+
+#     found = False
+
+#     for dct in products:
+#         if dct["price"] >= min_price:
+#             found = True
+#             print(f"{dct["name"]}: {dct["price"]}")
+
+#     if not found:
+#         print("No products found.")
+
+# print()
+
+# filter_products([
+#     {"name": "Keyboard", "price": 80},
+#     {"name": "Mouse", "price": 35},
+#     {"name": "Monitor", "price": 250},
+#     {"name": "Headphones", "price": 120}
+# ], 100)
