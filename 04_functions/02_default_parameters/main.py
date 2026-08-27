@@ -23,3 +23,28 @@
 # print(calculate_price(100))
 # print(calculate_price(100, 3))
 # print(calculate_price(100, 3, 20))
+
+
+# """Task 3"""
+
+# def calculate_delivery(order_total, country="local", express=False):
+
+#     delivery = 0
+
+#     if country == "local":
+#         delivery += 5
+#     else:
+#         delivery += 15
+
+#     if express == True:
+#         delivery += 10
+
+#     if order_total >= 100:
+#         delivery = 0
+
+#     return  delivery
+    
+# print(calculate_delivery(50))
+# print(calculate_delivery(50, "international"))
+# print(calculate_delivery(50, "international", True))
+# print(calculate_delivery(150, "international", True))
