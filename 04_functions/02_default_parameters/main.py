@@ -72,3 +72,16 @@
 #     {"name": "Monitor", "price": 250},
 #     {"name": "Headphones", "price": 120}
 # ], 100)
+
+
+# """Task 5"""
+
+# def create_user(name, role="user", active=True):
+
+#     user_dict = {"name": name, "role": role, "active": active}
+#     return user_dict
+
+# print(create_user("Alex"))
+# print(create_user("Bob", "admin"))
+# print(create_user("Charlie", active=False))
+# print(create_user("David", role="moderator", active=False))
