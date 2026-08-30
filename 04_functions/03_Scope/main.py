@@ -9,3 +9,17 @@
 #     print(f"{message} {language}")
 
 # show_language()
+
+
+# """Task 2"""
+
+# score = 100
+
+# def change_score():
+
+#     score = 50
+#     print(score)
+
+# change_score()
+# print(score)
+
