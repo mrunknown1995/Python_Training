@@ -85,3 +85,74 @@
 # print(create_user("Bob", "admin"))
 # print(create_user("Charlie", active=False))
 # print(create_user("David", role="moderator", active=False))
+
+
+# """Final Mini-Program — Order Manager"""
+
+# def create_order(product, quantity=1, priority=False):
+
+#     order_dict = {"product": product, "quantity": quantity, "priority": priority}
+#     return order_dict
+    
+# orders = []
+
+# while True:
+        
+#     user_input_action = input("Choose an action:\n" \
+           
+#     "1 - Add order\n" \
+#     "2 - Show orders\n" \
+#     "3 - Show priority orders\n" \
+#     "exit - Quit\n"
+#     ).lower()
+
+#     if user_input_action == "exit":
+#         break
+        
+#     if user_input_action == "1":
+#         print()
+#         product = input("Enter product name: ")
+#         add_quantity = input("Enter quantity: ")
+#         order_is_priority = input("Is the order priority? (yes/no)").lower()
+
+#         if add_quantity == "":
+#             if order_is_priority == "yes":
+#                 orders.append(create_order(product, priority=True))
+#             else:
+#                 orders.append(create_order(product))
+#         else:
+#             if order_is_priority == "yes":
+#                 orders.append(create_order(product, int(add_quantity), priority=True))
+#             else:
+#                 orders.append(create_order(product, int(add_quantity)))
+
+#         print()
+#         print("Order added.")
+#         print()
+
+#     elif user_input_action == "2":
+#         if orders:
+#             for order in orders:
+#                 print()
+#                 for key, value in order.items():
+#                     print(f"{key}: {value}")
+#         else:
+#             print("The order list is empty")
+
+#     elif user_input_action == "3":
+#         found = False
+#         if orders:
+#             for order in orders:
+#                 if order["priority"]:
+#                     found = True
+#                     print()
+#                     for key, value in order.items():
+#                         print(f"{key}: {value}")
+#         print()
+#         if not found:
+#             print("The priority order list is empty")
+
+#     print()
+
+
+    
