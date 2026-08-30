@@ -29,12 +29,28 @@
 # balance = 1000
 
 # def deposit(amount):
+
 #     global balance
-#     balance += amount
+
+#     if amount <= 0:
+#         print("Invalid amount.")
+#     else:
+#         balance += amount
+#         print("Money deposited.")
 
 # def withdraw(amount):
+
 #     global balance
-#     balance -= amount
+
+#     if amount > balance:
+#         print("Not enough money.")
+#         print(f"Current balance: {balance}")
+
+#     elif amount <= 0:
+#         print("Invalid amount.")
+#     else:
+#         balance -= amount
+#         print("Money withdrawn.")
 
 # while True:
         
@@ -52,25 +68,12 @@
 #     if user_input_action == "1":
 #         user_deposit_amount = int(input("Enter amount: "))
 
-#         if user_deposit_amount <= 0:
-#             print("Invalid amount.")
-#         else:
-#             deposit(user_deposit_amount)
-#             print("Money deposited.")
+#         deposit(user_deposit_amount)
 
 #     elif user_input_action == "2":
 #         user_withdraw_amount = int(input("Enter amount: "))
 
-#         if user_withdraw_amount > balance:
-#             print("Not enough money.")
-#             print(f"Current balance: {balance}")
-
-#         elif user_withdraw_amount <= 0:
-#             print("Invalid amount.")
-
-#         else:
-#             withdraw(user_withdraw_amount)
-#             print("Money withdrawn.")
+#         withdraw(user_withdraw_amount)
 
 #     elif user_input_action == "3":
 #         print(f"Current balance: {balance}")
