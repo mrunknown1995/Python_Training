@@ -94,3 +94,42 @@
 #     print(attempts)
 
 # run_session() 
+
+
+# """Task 5"""
+
+# def login_system():
+#     password = "python123"
+#     attempts = 3
+
+#     def check_password(user_password):
+#         nonlocal attempts
+
+#         if password == user_password:
+#             return True
+#         else:
+#             attempts -= 1
+#             return False
+
+#     while True:
+#         user_pass = input("Enter password: ")
+#         res = check_password(user_pass)
+
+#         if attempts == 0:
+#             print("Wrong password.")
+#             print("Access denied.")
+#             break
+
+#         if res:
+#             print("Access granted.")
+#             break
+
+#         else:
+#             print("Wrong password.")
+#             print(f"Attempts left: {attempts}")
+#             print()
+
+# login_system()
+
+
+
