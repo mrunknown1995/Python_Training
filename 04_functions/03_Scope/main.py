@@ -77,3 +77,20 @@
 
 #     elif user_input_action == "3":
 #         print(f"Current balance: {balance}")
+
+
+# """Task 4"""
+
+# def run_session():
+#     attempts = 0
+    
+#     def add_attempt():
+#         nonlocal attempts
+#         attempts += 1
+
+#     add_attempt()
+#     add_attempt()
+#     add_attempt()
+#     print(attempts)
+
+# run_session() 
