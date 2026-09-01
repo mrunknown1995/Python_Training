@@ -132,4 +132,68 @@
 # login_system()
 
 
+# """Scope Mini-Program — Study Session Manager"""
 
+# total_sessions = 0
+
+# def total_session():
+#     global total_sessions
+#     total_sessions += 1
+
+# def start_session():
+#     tasks_completed = 0
+#     session_points = 0
+
+#     def count_points(points):
+#         nonlocal tasks_completed
+#         nonlocal session_points
+
+#         if points <= 0:
+#             print("Invalid points.")
+#         else:
+#             tasks_completed += 1
+#             session_points += points
+#             print("Tasks completed.")
+
+#     while True:
+
+#         user_input_action = input("Choose an action:\n" \
+           
+#         "1 - Complete task\n" \
+#         "2 - Show session stats \n" \
+#         "3 - Finish session\n"
+#         ).lower()
+
+#         if user_input_action == "1":
+#             user_how_many_points = int(input("How many points did you get for completed task? "))
+#             count_points(user_how_many_points)
+
+#         elif user_input_action == "2":
+#             print(f"Task completed: {tasks_completed}")
+#             print(f"Session points: {session_points}")
+
+#         elif user_input_action == "3":
+#             print("Session finished.")
+#             print(f"Task completed: {tasks_completed}")
+#             print(f"Session points: {session_points}")
+#             total_session()
+
+#             break
+
+# while True:
+
+#     user_input_action = input("Choose an action:\n" \
+           
+#     "1 - Start study session\n" \
+#     "2 - Show total sessions \n" \
+#     "exit - Quit\n"
+#     ).lower()
+
+#     if user_input_action == "exit":
+#         break
+
+#     if user_input_action == "1":
+#         start_session()
+
+#     elif user_input_action == "2":
+#         print(f"Total completed sessions: {total_sessions}")
