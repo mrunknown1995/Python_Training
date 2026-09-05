@@ -93,3 +93,13 @@
 # print(analyze_prices(100, 100, 200, 200))
 # # (600, 100, 200)
 # print(analyze_prices(-100, -50, -200))
+
+
+# """Task 5"""
+
+# def show_profile(**kwargs):
+#     for key, value in kwargs.items():
+#         print(f"{key}: {value}")
+
+# show_profile(name="John", age=30, language="Python")
+# show_profile(city="Moscow", job="Developer")
