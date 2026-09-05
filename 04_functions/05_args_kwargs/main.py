@@ -125,5 +125,29 @@
 # # {}
 
 
-"""Task 7"""
+# """Task 7"""
 
+# def calculate_stats(**kwargs):
+
+#     new_dict = {"total": 0, "count": 0, "average": 0}
+#     total = 0
+#     count = 0
+
+#     for key in kwargs:
+#         total += kwargs[key]
+#         count += 1
+
+#         new_dict["total"] = total
+#         new_dict["count"] = count
+
+#     if kwargs:
+#         new_dict["average"] = total / len(kwargs)
+
+#     return new_dict
+    
+# print(calculate_stats(math=80, english=90, python=100))
+# # {'total': 270, 'count': 3, 'average': 90.0}
+# print(calculate_stats(task1=10, task2=20))
+# # {'total': 30, 'count': 2, 'average': 15.0}
+# print(calculate_stats())
+# # {'total': 0, 'count': 0, 'average': 0}
