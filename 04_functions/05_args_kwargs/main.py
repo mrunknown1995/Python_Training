@@ -43,3 +43,25 @@
 # # (2, 0, 2)
 
 # print(pos_or_neg_nums(10, 10, -5, -5))
+
+
+# """Task 3"""
+
+# def find_largest(*args):
+
+#     largest_number = args[0]
+
+#     for i in args:
+#         if i > largest_number:
+#             largest_number = i
+
+#     return largest_number
+
+# print(find_largest(5, 12, 3, 20, 8))
+# # 20
+# print(find_largest(-10, -3, -25, -7))
+# # -3
+# print(find_largest(100))
+# # 100
+# print(find_largest(7, 7, 2, 7))
+# # 7
