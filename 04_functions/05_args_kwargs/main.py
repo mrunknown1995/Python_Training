@@ -103,3 +103,27 @@
 
 # show_profile(name="John", age=30, language="Python")
 # show_profile(city="Moscow", job="Developer")
+
+
+# """Task 6"""
+
+# def filter_data(**kwargs):
+
+#     new_dict = {}
+
+#     for key, value in kwargs.items():
+#         if value is not None:
+#             new_dict[key] = value
+
+#     return new_dict
+
+# print(filter_data(name="John", age=30, city=None, language="Python"))
+# # {'name': 'John', 'age': 30, 'language': 'Python'}
+# print(filter_data(email=None, phone=None))
+# # {}
+# print(filter_data())
+# # {}
+
+
+"""Task 7"""
+
