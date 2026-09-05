@@ -151,3 +151,46 @@
 # # {'total': 30, 'count': 2, 'average': 15.0}
 # print(calculate_stats())
 # # {'total': 0, 'count': 0, 'average': 0}
+
+
+# """Mini-Program — Game Match Report"""
+
+# def game_match_report(*args, **kwargs):
+
+#     players = 0
+#     total_score = 0
+#     average_score = 0
+#     highest_score = args[0]
+#     lowest_score = args[0]
+
+#     for item in args:
+#         players += 1
+#         total_score += item
+
+#         if item > highest_score:
+#             highest_score = item
+
+#         elif item < lowest_score:
+#             lowest_score = item
+
+#     if args:
+#             average_score = total_score / players
+
+#     match_info_key = ""
+
+#     for key, value in kwargs.items():
+#         match_info_key += f"{key.capitalize()}: {value}\n"
+
+#     return \
+#     f"MATCH REPORT\n\n\
+# {match_info_key}\n\
+# Players: {players}\n\
+# Total score: {total_score}\n\
+# Average score: {average_score}\n\
+# Highest score: {highest_score}\n\
+# Lowest score: {lowest_score}"
+
+# report = game_match_report(120, 85, 200, 150, map="Desert", mode="Team Deathmatch", duration=18)
+
+# print()
+# print(report)
