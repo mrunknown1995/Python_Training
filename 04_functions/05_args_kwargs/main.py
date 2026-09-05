@@ -65,3 +65,31 @@
 # # 100
 # print(find_largest(7, 7, 2, 7))
 # # 7
+
+
+# """Task 4"""
+
+# def analyze_prices(*args):
+
+#     total_price = 0
+#     cheap = args[0]
+#     expensive = args[0]
+    
+#     for num in args:
+#         total_price += num
+
+#         if num > expensive:
+#             expensive = num
+
+#         elif num < cheap:
+#             cheap = num
+
+#     return total_price, cheap, expensive
+
+# print(analyze_prices(100, 250, 50, 400))
+# # (800, 50, 400)
+# print(analyze_prices(75))
+# # (75, 75, 75)
+# print(analyze_prices(100, 100, 200, 200))
+# # (600, 100, 200)
+# print(analyze_prices(-100, -50, -200))
